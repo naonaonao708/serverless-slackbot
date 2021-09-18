@@ -14,3 +14,4 @@ class Entry(Model):
     title = UnicodeAttribute(null=True)
     text = UnicodeAttribute(null=True)
     created_at = UTCDateTimeAttribute(default=datetime.now)
+    
